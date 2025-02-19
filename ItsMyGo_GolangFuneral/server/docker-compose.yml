@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  itsmygo: 
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: itsmygo
+    ports:
+      - "20000:20000"

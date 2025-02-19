@@ -1,0 +1,184 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef7ff; 
+    margin: 0;
+    padding: 20px;
+    text-align: center; 
+}
+.header {
+    background-color: #000; 
+    padding: 20px;
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+    position: relative;
+}
+.logo {
+    max-width: 300px; 
+    height: auto; 
+}
+.menu-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 1000;
+}
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a:hover {
+    background-color: #575757;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+}
+.mygo-List {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.mygo-List_Item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    width: 200px;
+    position: relative; 
+}
+.mygo-List_Item:hover {
+    transform: scale(1.05);
+}
+.thumb {
+    width: 100%;
+    height: auto;
+    cursor: pointer; 
+}
+.thumb img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #007bff;
+}
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0 5px;
+    color: #007bff;
+}
+.part {
+    font-size: 14px;
+    color: #6c757d;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+.info-box {
+    display: none; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 10; 
+    margin-top: 30%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.info-box.active {
+    display: block; 
+}
+.video-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px; 
+    width: 100%;
+    margin: 50px auto; 
+}
+
+iframe {
+    width: 100%;
+    height: 450px; 
+    border: none;
+}
+
+.video-title {
+    padding: 16px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+.menu-btn {
+position: fixed;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+background-color: #3498db; 
+color: white;
+border: none;
+padding: 20px 10px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 0 8px 8px 0; 
+writing-mode: vertical-rl; 
+text-align: center;
+font-weight: bold;
+transition: all 0.3s ease;
+}
+.menu-btn:hover {
+background-color: #2980b9; 
+}
+.menu-btn::before {
+content: "";
+display: block;
+width: 20px;
+height: 2px;
+background-color: white;
+margin: 5px auto;
+transition: all 0.3s ease;
+}
+.menu-btn::after {
+content: "";
+display: block;
+width: 20px;
+height: 2px;
+background-color: white;
+margin: 5px auto;
+transition: all 0.3s ease;
+}
