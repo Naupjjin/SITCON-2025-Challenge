@@ -27,3 +27,5 @@ int main() {
     puts("CRYCHIC Never Died !!!!! Go to watch this video https://youtu.be/NJ1tne9u8YM?si=oH2lj2lmY5QXO5HD !");
     read(0, buf, 0x100);
 }
+
+
