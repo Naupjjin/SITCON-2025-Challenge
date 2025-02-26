@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyGo!!!!!</title>
+
+    <link rel="stylesheet" href="/static/css/indexstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+        
+    <div id="sidebar" class="sidebar">
+        <span class="close-btn" onclick="closeSidebar()">&times;</span>
+        <a href="/">HOME</a>
+        <a href="/mygolang">MyGolang</a>
+        <a href="/itsmygo">special?</a>
+        <div class="social-media" style="margin-top: 55vh;">
+            <a class="hover" style="color: lightblue;" href="https://twitter.com/bang_dream_mygo" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a class="hover" style="color: lightblue;" href="https://www.youtube.com/channel/UC80p_16pSSHA8YmtCVdX51w?sub_confirmation=1" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-youtube"></i> YouTube
+            </a>
+        </div>
+    </div>
+
+    <div class="header">
+        <button class="menu-btn" onclick="openSidebar()">MENU</button>
+        <h1><img class="logo" src="/static/images/logo.svg" alt="MyGo Logo"/></h1>
+        <ul class="mygo-List">
+            <li class="mygo-List_Item tomori" onclick="toggleInfo(this)">
+                <div class="thumb">
+                    <img src="/static/images/tomori.png" alt="高松 燈"/>
+                </div>
+                <div class="name">高松 燈<br><span class="part Lato">Vo.</span></div>
+                <div class="info-box">
+                    <p>羽丘女子学園の高校1年生。物事の感じ方が周りとズレている、「羽丘の不思議ちゃん」。気に入ったものを集めるのが好きで、道に落ちた石や葉っぱをよく拾っている。</p>
+                </div>
+            </li>
+            <li class="mygo-List_Item anon" onclick="toggleInfo(this)">
+                <div class="thumb">
+                    <img src="/static/images/anon.png" alt="千早 愛音"/>
+                </div>
+                <div class="name">千早 愛音<br><span class="part Lato">Gt.</span></div>
+                <div class="info-box">
+                    <p>羽丘女子学園の高校1年生。成績優秀でコミュ力と行動力があり、中学時代はクラスの人気者で、生徒会長も務めていた。ミーハーな性格で流行っているものに手を出しがち。</p>
+                </div>
+            </li>
+            <li class="mygo-List_Item rana" onclick="toggleInfo(this)">
+                <div class="thumb">
+                    <img src="/static/images/rana.png" alt="要 楽奈"/>
+                </div>
+                <div class="name">要 楽奈<br><span class="part Lato">Gt.</span></div>
+                <div class="info-box">
+                    <p>花咲川女子学園の中学3年生。ライブハウス『RiNG』に神出鬼没に現れるエキセントリックガール。ギターの実力はかなりのもの。好きなものは好き、嫌いなものは嫌いとはっきりしている。抹茶が好き。</p>
+                </div>
+            </li>
+            <li class="mygo-List_Item soyo" onclick="toggleInfo(this)">
+                <div class="thumb">
+                    <img src="/static/images/soyo.png" alt="長崎 そよ"/>
+                </div>
+                <div class="name">長崎 そよ<br><span class="part Lato">Ba.</span></div>
+                <div class="info-box">
+                    <p>月ノ森女子学園の高校1年生。吹奏楽部でコントラバスを担当している。いつも穏やかな雰囲気のお姉さん的存在。誰にでも優しく、周りから頼られることが多い。考え事をしながら指先をいじる癖がある。</p>
+                </div>
+            </li>
+            <li class="mygo-List_Item taki" onclick="toggleInfo(this)">
+                <div class="thumb">
+                    <img src="/static/images/taki.png" alt="椎名 立希"/>
+                </div>
+                <div class="name">椎名 立希<br><span class="part Lato">Dr.</span></div>
+                <div class="info-box">
+                    <p>花咲川女子学園の高校1年生。ひとりでいることが好きな一匹狼。ライブハウス『RiNG』のスタッフとしてアルバイトをしているが、接客は苦手。燈に甘い。4つ上の姉がいる。</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="video-container" style="background-color: rgb(111, 201, 237)">
+        <div class="video-title">「壱雫空」（アニメ「BanG Dream! It's MyGO!!!!!」オープニング映像）</div>
+        <iframe src="https://www.youtube.com/embed/_CraJ8654Bg?si=P6AzgprnI0IbUNcC" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container" style="background-color: rgb(111, 201, 237)">
+        <div class="video-title">【Official Music Video】影色舞 / MyGO!!!!!【オリジナル楽曲】</div>
+        <iframe src="https://www.youtube.com/embed/iFIXi6zzCls?si=Qxxq5_1GHxMwsyZk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+    <div class="video-container" style="background-color: rgb(111, 201, 237)">
+        <div class="video-title">詩超絆（アニメ「BanG Dream! It's MyGO!!!!!」#10 挿入歌）</div>
+        <iframe src="https://www.youtube.com/embed/QkG7tIGYgSw?si=xKx4YsOB7stpIjyy" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+    <script src="/static/js/index.js"></script>
+</body>
+</html>
