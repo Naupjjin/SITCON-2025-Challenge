@@ -6,3 +6,4 @@
 |-----------|----------|-----------|-------------|
 | It's Mygo!!!!!🎤🎸🎸🥁🎸 Golang's Funeral 🎹 (patched version) | Web | None | golang env injection |
 | CRYCHIC never died ... 🌸☀️📷 | Pwn | None | BOF + vsyscall |
+| NeverStopPwning | Pwn | None | Just Basic ROP |
