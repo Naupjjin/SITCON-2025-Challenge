@@ -4,6 +4,6 @@
 ## challenge
 | challenge | Category | Difficult | Description |
 |-----------|----------|-----------|-------------|
-| It's Mygo!!!!!🎤🎸🎸🥁🎸 Golang's Funeral 🎹 (patched version) | Web | None | golang env injection |
-| CRYCHIC never died ... 🌸☀️📷 | Pwn | None | BOF + vsyscall |
-| NeverStopPwning | Pwn | None | Just Basic ROP |
+| It's Mygo!!!!!🎤🎸🎸🥁🎸 Golang's Funeral 🎹 (patched version) | Web | Insane | golang env injection |
+| CRYCHIC never died ... 🌸☀️📷 | Pwn | Insane | BOF + vsyscall |
+| NeverStopPwning | Pwn | Basic | Just Basic ROP |
