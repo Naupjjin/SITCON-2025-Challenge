@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  pwn-NeverStopPwning:
+  pwn-neverstoppwning:
     build: ./
     volumes:
       - ./share:/home/chal:ro
