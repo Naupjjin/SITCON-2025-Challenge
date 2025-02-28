@@ -6,3 +6,4 @@
 |-----------|----------|-----------|-------------|
 | It's Mygo!!!!!🎤🎸🎸🥁🎸 Golang's Funeral 🎹 (patched version) | Web | Insane | golang env injection |
 | CRYCHIC never died ... 🌸☀️📷 | Pwn | Insane | BOF + vsyscall |
+| Uika's Secret 🕸️ | Crypto | Insane | Matrix RSA |
