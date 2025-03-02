@@ -13,8 +13,8 @@ $g = g_p * g_q$
 As in RSA, we choose positive integers $e, d \in \mathbb{Z}^+$ such that $ed \equiv 1 \pmod g$
 
 The encryption and decryption processes are defined as follows:
-ENC: $M^e \equiv C \pmod n$
-DEC: $C^d \equiv M \pmod n$
+- ENC: $M^e \equiv C \pmod n$
+- DEC: $C^d \equiv M \pmod n$
 
 ## Proof
 To prove that decryption works, we need to show:
